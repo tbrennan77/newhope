@@ -1,0 +1,16 @@
+/*
+Theme Name: Your Child Theme
+Description: This is an example of a blank Jump Start child theme.
+Author: Your name here
+Template: jumpstart
+*/
+
+/* Your custom CSS here */
+
+body .gform_wrapper .gform_body .gform_fields .gfield .name_first label {display: none;}
+body .gform_wrapper .gform_body .gform_fields .gfield .name_last label {display: none;}
+
+.tb-gforms-compat .gform_wrapper ul.gform_fields li.gfield span.name_first {
+    float: left;
+    padding-bottom: 20px;
+}
